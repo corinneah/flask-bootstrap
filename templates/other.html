@@ -1,0 +1,58 @@
+><!DOCTYPE html>
+<html>
+<head>
+
+    <div class="alert alert-info">
+        <strong>Alert!</strong> Locations are subject to change.
+      </div>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
+
+</head> 
+<header>
+
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CorinneHealth</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Locations
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Long Island, NY</a></li>
+                    <li><a class="dropdown-item" href="#">New York, NY</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+</header>
+<body>
+    <ul class="list-group">
+        <li class="list-group-item">Long Island, NY</li>
+        <li class="list-group-item">New York, NY</li>
+      </ul>
+    <img src="https://system.suny.edu/media/suny/content-assets/images/healthaffairs/Downstate-medical-hospital.jpg" style="width:30cm;height:20cm;" class="rounded mx-auto d-block">
+
+    <footer>
+        <p>Copyright ©2022 - Corinne Harris </p>
+    </footer>
+</body>
+</html>  
